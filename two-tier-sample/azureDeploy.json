@@ -81,7 +81,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "OSDiskName": "vmseries",
-    "fwOffer" : "vmseries1",
+    "fwOffer" : "vmseries1-beta1-preview",
     "fwPublisher": "paloaltonetworks",
     "addressPrefix": "[concat(variables('IPAddressPrefix'), '.0.0/16')]",
     "subnet0Name": "Mgmt",
@@ -502,7 +502,7 @@
               "publisher": "[variables('fwPublisher')]",
               "offer": "[variables('fwOffer')]",
               "sku": "[parameters('fwSku')]",
-              "version": "latest"
+              "version": "9.0.0"
           },
           "osDisk": {
             "name": "[concat(variables('fwVmName'),'-osDisk')]",
