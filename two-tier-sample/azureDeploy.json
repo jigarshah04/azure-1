@@ -33,7 +33,8 @@
       "type": "string",
       "allowedValues": [
         "Standard_D3_v2",
-        "Standard_D4_v2"
+        "Standard_D4_v2",
+        "Standard_D5_v2"
       ],
       "metadata": {
         "description": "This is the size of PAN's firewall VM"
@@ -81,7 +82,7 @@
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
     "OSDiskName": "vmseries",
-    "fwOffer" : "vmseries1-beta1-preview",
+    "fwOffer" : "vmseries1-beta-preview",
     "fwPublisher": "paloaltonetworks",
     "addressPrefix": "[concat(variables('IPAddressPrefix'), '.0.0/16')]",
     "subnet0Name": "Mgmt",
